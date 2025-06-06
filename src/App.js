@@ -50,7 +50,6 @@ function App() {
             >
               メッセージ2を取得
             </button>
-            </button>
             <button
               onClick={() => callLambda(API_ENDPOINT3, 'b3')}
               disabled={loadingButton === 'b3'}
